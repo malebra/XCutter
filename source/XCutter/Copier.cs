@@ -67,52 +67,51 @@ namespace XCutter
 
         private void CopyFiles(object sender, FileSystemEventArgs e)
         {
+            int counter = 0;
+            Thread.Sleep(250);
             bool x = true;
-            while (x)
+            while (x && counter < 20)
             {
                 try
                 {
-                    using (Stream s = File.Open(e.FullPath, FileMode.Open))
+                    lock (locker)
                     {
-
+                        string name = Path.GetFileNameWithoutExtension(e.FullPath);
+                        string dest = $"{locationTo}\\{name}.wav";
+                        if (e.ChangeType == WatcherChangeTypes.Created)
+                        {
+                            if (!File.Exists(dest))
+                            {
+                                Console.WriteLine($"Editing file {e.FullPath}...");
+                                WaveFileUtils.TrimAudioFile(e.FullPath, dest, new TimeSpan(0, 0, 0, 5, 600), new TimeSpan(0, 0, 0, 6, 470));
+                            }
+                        }
+                        if (e.ChangeType == WatcherChangeTypes.Deleted)
+                        {
+                            if (File.Exists(dest))
+                            {
+                                try
+                                {
+                                    Console.Write($"Editing file {dest}......");
+                                    File.Delete(dest);
+                                    Console.WriteLine("Done.");
+                                }
+                                catch (Exception ee)
+                                {
+                                    Console.WriteLine($"Error: {ee.Message}");
+                                }
+                            }
+                        }
                     }
                     x = false;
                 }
                 catch (Exception)
                 {
+
                     Thread.Sleep(500);
                 }
             }
-            Thread.Sleep(250);
-            lock (locker)
-            {
-                string name = Path.GetFileNameWithoutExtension(e.FullPath);
-                string dest = $"{locationTo}\\{name}.wav";
-                if (e.ChangeType == WatcherChangeTypes.Created)
-                {
-                    if (!File.Exists(dest))
-                    {
-                        Console.WriteLine($"Editing file {e.FullPath}...");
-                        WaveFileUtils.TrimAudioFile(e.FullPath, dest, new TimeSpan(0, 0, 0, 5, 600), new TimeSpan(0, 0, 0, 6, 470));
-                    }
-                }
-                if (e.ChangeType == WatcherChangeTypes.Deleted)
-                {
-                    if (File.Exists(dest))
-                    {
-                        try
-                        {
-                            Console.Write($"Editing file {dest}......");
-                            File.Delete(dest);
-                            Console.WriteLine("Done.");
-                        }
-                        catch (Exception ee)
-                        {
-                            Console.WriteLine($"Error: {ee.Message}");
-                        }
-                    }
-                } 
-            }
+            
         }
 
         private void CopyFiles(string fullPath)
