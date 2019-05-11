@@ -1,0 +1,14 @@
+C:\Users\Borno\source\repos\XCutter\XCutter\obj\Debug\XCutter.csprojAssemblyReference.cache
+C:\Users\Borno\source\repos\XCutter\XCutter\obj\Debug\XCutter.csproj.CoreCompileInputs.cache
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\libmp3lame.32.dll
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\libmp3lame.64.dll
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\XCutter.exe.config
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\XCutter.exe
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\XCutter.pdb
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\NAudio.dll
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\NAudio.Lame.dll
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\NAudio.xml
+C:\Users\Borno\source\repos\XCutter\XCutter\obj\Debug\XCutter.csproj.CopyComplete
+C:\Users\Borno\source\repos\XCutter\XCutter\obj\Debug\XCutter.exe
+C:\Users\Borno\source\repos\XCutter\XCutter\obj\Debug\XCutter.pdb
+C:\Users\Borno\source\repos\XCutter\XCutter\bin\Debug\NAudio.pdb
