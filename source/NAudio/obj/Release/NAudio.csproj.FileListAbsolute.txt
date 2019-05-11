@@ -10,3 +10,13 @@ C:\Users\Borno\source\repos\XCutter\NAudio\obj\Release\NAudio.Utils.ProgressLog.
 C:\Users\Borno\source\repos\XCutter\NAudio\obj\Release\NAudio.csproj.GenerateResource.cache
 C:\Users\Borno\source\repos\XCutter\NAudio\obj\Release\NAudio.csproj.CoreCompileInputs.cache
 C:\Users\Borno\source\repos\XCutter\NAudio\obj\Release\NAudio.dll
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.csprojAssemblyReference.cache
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Gui.Fader.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Gui.PanSlider.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Gui.Pot.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Gui.VolumeSlider.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Gui.WaveViewer.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.Utils.ProgressLog.resources
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.csproj.GenerateResource.cache
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.csproj.CoreCompileInputs.cache
+C:\Users\Borno\source\repos\XCutter\source\NAudio\obj\Release\NAudio.dll

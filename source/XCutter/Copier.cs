@@ -62,18 +62,27 @@ namespace XCutter
 
         public void Run()
         {
-            //if (!donNotRun)
-            //{
-            //    while (true)
-            //    {
-            //        Thread.Sleep(1000);
-            //    } 
-            //}
 
         }
 
         private void CopyFiles(object sender, FileSystemEventArgs e)
         {
+            bool x = true;
+            while (x)
+            {
+                try
+                {
+                    using (Stream s = File.Open(e.FullPath, FileMode.Open))
+                    {
+
+                    }
+                    x = false;
+                }
+                catch (Exception)
+                {
+                    Thread.Sleep(500);
+                }
+            }
             Thread.Sleep(250);
             lock (locker)
             {

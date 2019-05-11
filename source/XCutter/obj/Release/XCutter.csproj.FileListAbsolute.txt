@@ -6,3 +6,7 @@ C:\Users\Borno\source\repos\XCutter\XCutter\obj\Release\XCutter.csprojAssemblyRe
 C:\Users\Borno\source\repos\XCutter\XCutter\obj\Release\XCutter.csproj.CoreCompileInputs.cache
 C:\Users\Borno\source\repos\XCutter\XCutter\obj\Release\XCutter.csproj.CopyComplete
 C:\Users\Borno\source\repos\XCutter\XCutter\obj\Release\XCutter.exe
+C:\Users\Borno\source\repos\XCutter\source\XCutter\obj\Release\XCutter.csprojAssemblyReference.cache
+C:\Users\Borno\source\repos\XCutter\source\XCutter\obj\Release\XCutter.csproj.CoreCompileInputs.cache
+C:\Users\Borno\source\repos\XCutter\source\XCutter\obj\Release\XCutter.csproj.CopyComplete
+C:\Users\Borno\source\repos\XCutter\source\XCutter\obj\Release\XCutter.exe
